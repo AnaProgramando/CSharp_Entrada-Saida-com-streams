@@ -1,0 +1,7 @@
+C:\Users\anabv\Documents\Programacao\CSharp\CSharp_Entrada-Saida-com-streams\bin\Debug\CSharp_Entrada-Saida-com-streams.exe.config
+C:\Users\anabv\Documents\Programacao\CSharp\CSharp_Entrada-Saida-com-streams\bin\Debug\CSharp_Entrada-Saida-com-streams.exe
+C:\Users\anabv\Documents\Programacao\CSharp\CSharp_Entrada-Saida-com-streams\bin\Debug\CSharp_Entrada-Saida-com-streams.pdb
+C:\Users\anabv\Documents\Programacao\CSharp\CSharp_Entrada-Saida-com-streams\obj\Debug\CSharp_Entrada-Saida-com-streams.csproj.AssemblyReference.cache
+C:\Users\anabv\Documents\Programacao\CSharp\CSharp_Entrada-Saida-com-streams\obj\Debug\CSharp_Entrada-Saida-com-streams.csproj.CoreCompileInputs.cache
+C:\Users\anabv\Documents\Programacao\CSharp\CSharp_Entrada-Saida-com-streams\obj\Debug\CSharp_Entrada-Saida-com-streams.exe
+C:\Users\anabv\Documents\Programacao\CSharp\CSharp_Entrada-Saida-com-streams\obj\Debug\CSharp_Entrada-Saida-com-streams.pdb
