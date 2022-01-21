@@ -20,7 +20,7 @@ namespace CSharp_Entrada_Saida_com_streams
             //    escritor.WriteLine(0987654321);
             //}
 
-            LeituraBinaria();
+            UsarStreamDeEntrada();
             Console.WriteLine("Aplicação finalizada.");
 
             Console.ReadLine();
