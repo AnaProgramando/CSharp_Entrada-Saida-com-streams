@@ -25,7 +25,7 @@ namespace CSharp_Entrada_Saida_com_streams
                         var linha = leitor.ReadLine();
                         var contaCorrente = ConverterStringParaContaCorrente(linha);
 
-                    var mensagem = $"Conta número {contaCorrente.Numero}, agência {contaCorrente.Agencia}. Saldo: R$ {contaCorrente.Saldo}";
+                    var mensagem = $"{contaCorrente.Titular.Nome} - Conta número {contaCorrente.Numero}, agência {contaCorrente.Agencia}. Saldo: R$ {contaCorrente.Saldo}";
                     Console.WriteLine(mensagem);    
 
                     // Console.WriteLine(linha);
@@ -38,7 +38,7 @@ namespace CSharp_Entrada_Saida_com_streams
 
         static ContaCorrente ConverterStringParaContaCorrente(string linha)
         {
-            string[] campos = linha.Split(' ');
+            string[] campos = linha.Split(',');
 
             var agencia = campos[0];
             var numero = campos[1];
