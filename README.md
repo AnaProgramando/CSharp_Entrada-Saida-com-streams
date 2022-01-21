@@ -1,7 +1,7 @@
 ﻿![banner_CSharp_Entrada-Saida-com-streams](https://github.com/AnaProgramando/CSharp_Entrada-Saida-com-streams/blob/935079f685d88ae29af80839cedf075925bf652f/banner_Entrada-Saida-com-streams.png)
 ----
 
-<img src="https://img.shields.io/static/v1?label=Status&message=incomplete&color=FFA500&style=for-the-badge"/>
+<img src="https://img.shields.io/static/v1?label=Status&message=complete&color=32CD32&style=for-the-badge"/>
 
 <p align="center"> O curso desse projeto está disponível na Plataforma da <a href="https://www.alura.com.br/" > Alura </a> </p>
 
@@ -28,25 +28,25 @@ Tive a ideia de compartilhar alguns projetos para quem tem interesse em aprender
 
 ## ✅ Features
 
-- [ ] Criação de FileStream por meio do modo Open
-- [ ] Criação de buffer para fazer leitura
-- [ ] Criação do método Read() 
-- [ ] Uso de Unicode e conceito de code point para conversão entre uma cadeia de bytes para uma string
-- [ ] Uso de formatos de transformação
-- [ ] Uso de UTF-8, UTF-32 e o Encoding Default do sistema operacional a partir da classe Ecoding com membros estáticos
-- [ ] Uso do método GetString() para conversão da cadeia de bytes para a string
-- [ ] Uso do StreamReader()
-- [ ] Leitura de linha por linha de documento
-- [ ] Conversão de linha para objeto
-- [ ] Uso do método Parse() do int e do double para troca de texto por variável de inteiro e variável de double
-- [ ] Criação de arquivo com FileStream
-- [ ] Uso do método GetBytes() para transformar string em série de bytes
-- [ ] Uso do método StreamWriter()
-- [ ] Uso do método Flush() para despejo de informações no destino
-- [ ] Uso dos writers, BinaryWriter e BinaryReader
-- [ ] Uso do método auxiliar File.WriteAllText()
-- [ ] Uso do método auxiliar Console.WriteLine()
-- [ ] Uso do método auxiliar Console.ReadLine() 
+- [X] Criação de FileStream por meio do modo Open
+- [X] Criação de buffer para fazer leitura
+- [X] Criação do método Read() 
+- [X] Uso de Unicode e conceito de code point para conversão entre uma cadeia de bytes para uma string
+- [X] Uso de formatos de transformação
+- [X] Uso de UTF-8, UTF-32 e o Encoding Default do sistema operacional a partir da classe Ecoding com membros estáticos
+- [X] Uso do método GetString() para conversão da cadeia de bytes para a string
+- [X] Uso do StreamReader()
+- [X] Leitura de linha por linha de documento
+- [X] Conversão de linha para objeto
+- [X] Uso do método Parse() do int e do double para troca de texto por variável de inteiro e variável de double
+- [X] Criação de arquivo com FileStream
+- [X] Uso do método GetBytes() para transformar string em série de bytes
+- [X] Uso do método StreamWriter()
+- [X] Uso do método Flush() para despejo de informações no destino
+- [X] Uso dos writers, BinaryWriter e BinaryReader
+- [X] Uso do método auxiliar File.WriteAllText()
+- [X] Uso do método auxiliar Console.WriteLine()
+- [X] Uso do método auxiliar Console.ReadLine() 
 
 ## ✍ Referências
 

@@ -23,7 +23,8 @@ namespace CSharp_Entrada_Saida_com_streams
             // ---------------------------------------------
 
             File.WriteAllText("escrevendoComAClasseFile.txt", "Testando File.WriteAllText");
-            Console.WriteLine("Arquivo escrevendoComAClasseFile.txt criado!");
+            Console.WriteLine("Criado o arquivo escrevendoComAClasseFile.txt!");
+            Console.WriteLine("Pressione o Enter para continuar...");
 
             Console.ReadLine();
 
@@ -32,7 +33,7 @@ namespace CSharp_Entrada_Saida_com_streams
             // var todoTexto = File.WriteAllText("contas.txt");
 
             var bytesArquivo = File.ReadAllBytes("contas.txt");
-            Console.WriteLine($"Arquivo contas.txt possui: {bytesArquivo.Length} bytes.");
+            Console.WriteLine($"O arquivo contas.txt possui: {bytesArquivo.Length} bytes.");
             Console.WriteLine("Pressione o Enter para continuar...");
 
             Console.ReadLine();
@@ -40,7 +41,12 @@ namespace CSharp_Entrada_Saida_com_streams
             // ---------------------------------------------
 
             var linhas = File.ReadAllLines("contas.txt");
-            Console.WriteLine($" Número de linhas do arquivo: {linhas.Length}");
+            Console.WriteLine($"Número de linhas do arquivo contas.txt: {linhas.Length}");
+
+            Console.WriteLine("Pressione o Enter para continuar...");
+            Console.ReadLine();
+
+            // ---------------------------------------------
 
             foreach (var linha in linhas)
             {
