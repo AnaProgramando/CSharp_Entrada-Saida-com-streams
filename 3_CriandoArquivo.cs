@@ -23,5 +23,16 @@ namespace CSharp_Entrada_Saida_com_streams
                 fluxoDeArquivo.Write(bytes, 0, bytes.Length);
             }
         }
+
+        static void CriarAquivoComWriter()
+        {
+            var caminhoNovoArquivo = "contasExportadas.csv";
+
+            using (var fluxoDeArquivo = new FileStream(caminhoNovoArquivo, FileMode.CreateNew))
+            using (var escritor = new StreamWriter(fluxoDeArquivo))
+            {
+                escritor.Write("321,13579,456.0,Fulano");
+            }
+        }
     }
 }
