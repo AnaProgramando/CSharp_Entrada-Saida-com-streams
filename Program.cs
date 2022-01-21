@@ -12,7 +12,7 @@ namespace CSharp_Entrada_Saida_com_streams
     {
         static void Main(string[] args)
         {
-            CriarAquivoComWriter();
+            TestaEscrita();
             Console.WriteLine("Aplicação finalizada.");
 
             Console.ReadLine();
