@@ -24,7 +24,7 @@ namespace CSharp_Entrada_Saida_com_streams
                         var linha = leitor.ReadLine();
                         Console.WriteLine(linha);
                     }
-                } 
+                }
 
             Console.ReadLine();
         }
