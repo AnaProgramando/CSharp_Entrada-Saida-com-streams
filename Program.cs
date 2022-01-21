@@ -20,6 +20,49 @@ namespace CSharp_Entrada_Saida_com_streams
             //    escritor.WriteLine(0987654321);
             //}
 
+            // ---------------------------------------------
+
+            File.WriteAllText("escrevendoComAClasseFile.txt", "Testando File.WriteAllText");
+            Console.WriteLine("Arquivo escrevendoComAClasseFile.txt criado!");
+
+            Console.ReadLine();
+
+            // ---------------------------------------------
+
+            // var todoTexto = File.WriteAllText("contas.txt");
+
+            var bytesArquivo = File.ReadAllBytes("contas.txt");
+            Console.WriteLine($"Arquivo contas.txt possui: {bytesArquivo.Length} bytes.");
+            Console.WriteLine("Pressione o Enter para continuar...");
+
+            Console.ReadLine();
+
+            // ---------------------------------------------
+
+            var linhas = File.ReadAllLines("contas.txt");
+            Console.WriteLine($" Número de linhas do arquivo: {linhas.Length}");
+
+            foreach (var linha in linhas)
+            {
+                Console.WriteLine(linha);
+            }
+
+            Console.WriteLine("Pressione o Enter para continuar...");
+            Console.ReadLine();
+
+            // ---------------------------------------------
+
+            Console.WriteLine("Digite o seu nome: ");
+            var nome = Console.ReadLine();
+
+            Console.WriteLine($"O nome digitado foi: {nome}");
+            Console.WriteLine("Pressione o Enter para continuar...");
+            Console.WriteLine(" ");
+
+            Console.ReadLine();
+
+            // ---------------------------------------------
+
             UsarStreamDeEntrada();
             Console.WriteLine("Aplicação finalizada.");
 
