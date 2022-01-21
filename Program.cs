@@ -14,20 +14,19 @@ namespace CSharp_Entrada_Saida_com_streams
             var enderecoDoArquivo = "contas.txt";
 
             using (var fluxoDeArquivo = new FileStream(enderecoDoArquivo, FileMode.Open))
-            {
-                var leitor = new StreamReader(fluxoDeArquivo);
-
-                // var linha = leitor.Read();                
-                // var linha = leitor.ReadToEnd();
-                
-                while(!leitor.EndOfStream)
+            using (var leitor = new StreamReader(fluxoDeArquivo))
                 {
-                    var linha = leitor.ReadLine();
-                    Console.WriteLine(linha);
-                }                
-            }
+                    // var linha = leitor.Read();                
+                    // var linha = leitor.ReadToEnd();
 
-                Console.ReadLine();
+                    while (!leitor.EndOfStream)
+                    {
+                        var linha = leitor.ReadLine();
+                        Console.WriteLine(linha);
+                    }
+                } 
+
+            Console.ReadLine();
         }
 
     }
