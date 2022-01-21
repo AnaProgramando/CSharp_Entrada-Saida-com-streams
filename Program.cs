@@ -12,7 +12,15 @@ namespace CSharp_Entrada_Saida_com_streams
     {
         static void Main(string[] args)
         {
-            TestaEscrita();
+            //using (var fs = new FileStream("testaTipos.txt", FileMode.Create))
+            //using (var escritor = new StreamWriter(fs))
+            //{
+            //    escritor.WriteLine(true);
+            //    escritor.WriteLine(false);
+            //    escritor.WriteLine(0987654321);
+            //}
+
+            LeituraBinaria();
             Console.WriteLine("Aplicação finalizada.");
 
             Console.ReadLine();
