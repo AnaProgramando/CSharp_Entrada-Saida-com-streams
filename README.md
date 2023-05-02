@@ -1,11 +1,11 @@
-﻿![banner CSharp - _________](https://github.com/__________)
+![banner CSharp - Entrada e Saida com Streams](https://github.com/AnaProgramando/CSharp_Entrada-Saida-com-streams/blob/a7c52af7315877438e1d1f37a15c05bd13acd39e/banner_Entrada-Saida-com-streams.png)
 ----
 
 <img src="https://img.shields.io/static/v1?label=Status&message=complete&color=32CD32&style=for-the-badge"/>
 
 <p align="center">
  <a href="#-welcome">Welcome</a> | 
- <a href="______">___________</a> | 
+ <a href="#-csharp---entrada-e-sa%C3%ADda-com-streams">Entrada e Saída com Streams</a> | 
  <a href="#-features">Features</a> | 
  <a href="#-refer%C3%AAncias">Referências</a> | 
  <a href="#-d%C3%BAvidas">Dúvidas</a> | 
@@ -21,7 +21,7 @@ Tive a ideia de começar o desafio de #100DaysOfCode, além de compartilhar algu
 
 <br>
 
-## <img align="center" alt="Ana-Csharp" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> CSharp - ______________
+## <img align="center" alt="Ana-Csharp" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"> CSharp - Entrada e Saída com Streams
 
 📚 Aproveite o código desse exercício
 
@@ -102,10 +102,10 @@ Se precisar de ajuda, entre em contato comigo 😉
 💙 Se você gostou desse projeto, dê uma ⭐ e compartilhe!
 
 <br><br>
-[<img align="right" alt="Voltar ao topo" width="100px" src="https://img.shields.io/static/v1?label&message=Voltar+ao+topo&color=blueviolet&style=flat&logo"/>](https://github.com/AnaProgramando/_________/blob/main/README.md#)
+[<img align="right" alt="Voltar ao topo" width="100px" src="https://img.shields.io/static/v1?label&message=Voltar+ao+topo&color=blueviolet&style=flat&logo"/>](https://github.com/AnaProgramando/CSharp_Entrada-Saida-com-streams/blob/main/README.md#)
 
 <br>
 
 <div>
-  <img align="center" alt="Pixel-Art" width="1000px" src="____________"/>
+  <img align="center" alt="Pixel-Art" width="1000px" src="https://github.com/AnaProgramando/CSharp_Entrada-Saida-com-streams/blob/a7c52af7315877438e1d1f37a15c05bd13acd39e/q.gif"/>
 </div>
